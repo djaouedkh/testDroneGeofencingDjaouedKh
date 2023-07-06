@@ -1,0 +1,28 @@
+.container {
+    margin-top: 20px;
+}
+
+.taskList{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.title {
+    margin-bottom: 10px;
+}
+
+.taskItems {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li{
+    margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+}

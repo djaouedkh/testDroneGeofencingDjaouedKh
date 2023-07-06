@@ -1,0 +1,23 @@
+.addTaskForm {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  .addTaskForm input {
+    flex-grow: 1;
+    padding: 5px;
+  }
+  
+  .addTaskForm button {
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .addTaskForm button:hover {
+    background-color: #1f813a;
+  }
+  
